@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{8AE93BFC-E79A-4832-92FA-8F0FE3A47C92}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="svgTest/ttfTestPage.xaml">
+    <Files>
+      <File FileName="svgTest/App.xaml" Line="7" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="30" Column="13" />
+      <File FileName="svgTest/MaterialDesignIconsWebFont.cs" Line="10" Column="13" />
+      <File FileName="svgTest/MdiIconsCollection.cs" Line="13" Column="21" />
+      <File FileName="svgTest/svgTestPage.xaml" Line="46" Column="1" />
+      <File FileName="svgTest/ttfTestPage.xaml" Line="46" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.svgTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4D0CCBBF-251E-45D0-A5AE-EF76C1C8D785" />
+</Properties>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:svgTest" x:Class="svgTest.svgTestPage"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    BackgroundColor="#F6F6F6">
+    <StackLayout Padding="10">
+        <Label 
+        Text="Teste de Imagem SVG" 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        TextColor="#000"
+        FontSize="20"/>
+
+        <Label 
+        Margin="10"
+        Text="Usando ffimageloadingsvg:" 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        TextColor="Red"
+        FontSize="14"/>
+        
+        <ffimageloadingsvg:SvgCachedImage
+         Source="icone_abastecimento.svg"/>  
+
+        <Label 
+        Margin="10"
+        Text="Usando ffimageloadingsvg 64px:" 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        TextColor="Blue"
+        FontSize="14"/>
+
+        <ffimageloadingsvg:SvgCachedImage 
+        WidthRequest="20" 
+         Source="icone_abastecimento.svg"/>
+
+        <Button Margin="0,10,0,0" 
+        Text="Usando TTF" 
+        BackgroundColor="#CCC" 
+        TextColor="#000" 
+        Clicked="Handle_Clicked" />
+       
+
+    </StackLayout>
+</ContentPage>
